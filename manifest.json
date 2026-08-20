@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "darksamen.nightlight",
+  "name": "Set your Nightlight",
+  "version": "1.0.0",
+  "author": "Omarchy",
+  "description": "Owns the hyprsunset night light temperature for the bar indicator and CLI.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Night Light",
+    "description": "Moon button with manual toggle, fixed-schedule, or sunrise/sunset automation",
+    "category": "System",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.nightlight"
+  }
+}
