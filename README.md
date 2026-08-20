@@ -2,6 +2,7 @@
 Omarchy plugin to let you set a custom automatic nightlight period that can be manual or based on the sun
 Purpose : Give some freedom in when to automatically turn the nightlight on.
 
+# Content
 Four buttons:
 - First line is to set manually a time in day to start and to end the nightlight.
 - Second line is to replace those buttons by sunrise and sunset based on your local time.
@@ -18,3 +19,16 @@ OR even:
 Other two buttons:
 - Turn on/off to basically use nightlight out of your period, or day blue light during said period
 - Transition time to progressively decrease/increase the light K number to swith from one state to another as smoothly as you want. Max time 120mn.
+
+# Install
+
+Install the plugin my running in terminal:
+omarchy plugin install https://github.com/Darksam08/Set-your-nightlight.git
+
+# Uninstall
+
+Uninstall by running in terminal:
+omarchy plugin remove darksamen.nightlight
+
+Hope you'll enjoy!
+Contact me on Discord if troubleshooting at _darksam :)
